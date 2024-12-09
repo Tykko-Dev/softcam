@@ -2,8 +2,11 @@
 
 All notable changes to the Softcam library will be documented in this file.
 
-### [Unreleased]
+### [1.8] - 2024-02-08
+- Added `scIsConnected()` method to API to make application connection waiting more flexible by @jekyll2014. (thanks!) [#51](https://github.com/tshino/softcam/pull/51)
+- Added corresponding `is_connected()` method to the python_binding example.
 - Updated solution file version from Visual Studio 2019 to Visual Studio 2022. [#45](https://github.com/tshino/softcam/pull/45)
+- Added `pushd`/`popd` to example installer BAT files to work correctly even if launched from another directory. [#48](https://github.com/tshino/softcam/pull/48)
 
 ### [1.7] - 2023-12-02
 - Bumped NuGet package version of Google Test.
